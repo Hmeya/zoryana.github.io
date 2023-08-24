@@ -1,0 +1,195 @@
+svg {margin: 0 12px;}
+a:link {text-decoration: none;}
+h1 {font-family: Raleway;}
+
+.style_pershemenu { padding-top: 30px; margin-bottom: 30px;}
+.socseti { margin-left: 80px; margin-right: -80px;}
+
+.telefon a {
+    color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 27px */
+text-align: right;
+}
+
+
+#navbarTogglerDemo01 {
+ font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+
+#navbarTogglerDemo01  li{
+padding-left: 10px;
+margin-right: 20px;
+}
+
+.navbar svg {margin: 0 12px;}
+
+
+.zoryana_btn_style{
+display: flex;
+width: 146px;
+height: 30px;
+padding: 10px 80px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #000;
+margin-top: 4%;
+}
+
+.zoryana_btn_style span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+.zoryana_btn_style2{
+display: flex;
+width: 347px;
+padding: 10px ;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #000;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.telefon {
+ text-decoration: none;
+ color: #000;
+}
+
+
+ @media (max-width: 500px) {
+    .big_menu_zoryana_style svg {  display: none;}
+ }
+ @media (min-width: 500px) {
+ .small_menu_zoryana_style{ display: none; }
+   .pershemenu h1{
+        font-size: 28px;
+    }
+    .telefon {padding-right: 0;}
+    .socseti {margin-left: 20px; margin-right: 0; width:100px;}
+    svg {margin: 0 5px;}
+    
+}
+
+@media (min-width:1200px) { 
+    .desktop_version_menu{margin-left: 150px;}
+    
+}
+
+@media (min-width:700px) { 
+    .pershemenu h1{
+        font-size: 28px;
+    }
+    .telefon {padding-right: 0; }
+    .socseti {margin-left: 20px; margin-right: 0; }
+    svg {margin: 0 5px;}
+}
+   
+@media (max-width: 500px){ .pershemenu {display: none;}}
+
+/* Стилі для форми */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Стилі для полів input і textarea */
+input.form-control, textarea.form-control {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+/* Стилі для кнопки submit */
+button.btn-dark {
+    display: block;
+    margin: 20px auto;
+}
+/* Стандартні стилі для input та textarea */
+input, textarea {
+  display: flex;
+  width: 482px;
+  height: 46px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 2px solid #000;
+  
+}
+
+/* Стилі для великих екранів */
+@media (min-width: 1200px) {
+  textarea {
+    height: 265px;
+  }
+
+  label[for="floatingTextarea2"] {
+    text-align: left;
+    align-self: flex-start;
+  }
+}
+
+
+/* Медіа запит для адаптивності */
+@media (max-width: 768px) {
+    input.form-control, textarea.form-control {
+        width: 100%;
+    }
+}
+
+
+form h1 {margin-top: 100px; margin-bottom: 87px; text-align: center;}
+
+.polevvodu {margin: 30px auto;}
+
+.nadislaty {
+    display: flex !important;
+    width: 288px !important;
+    height: 68px !important;
+    padding: 10px 60px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-shrink: 0 !important;
+    border-radius: 30px !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+}
+
+.nadislaty span {
+    color: #FFF !important;
+    /* H2 Tablet Bold */
+    font-family: Raleway !important;
+    font-size: 28px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 150% !important; /* 42px */
+}
